@@ -4,8 +4,10 @@
 !SLIDE commandline incremental smaller
 # Deploy Zero #
 
-    $ heroku create
+    $ heroku apps:create sushi --stack=cedar
+    Creating showoff-heroku... done, stack is cedar
     Created sushi.herokuapp.com | git@heroku.com:sushi.git
+    Git remote heroku added
 
     $ git push heroku master
     -----> Heroku receiving push
